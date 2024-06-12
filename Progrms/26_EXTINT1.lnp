@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\26_extint1.o"
+--strict --scatter ".\26_EXTINT1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\26_EXTINT1.map" -o .\26_EXTINT1.axf

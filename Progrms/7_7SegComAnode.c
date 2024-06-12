@@ -1,0 +1,24 @@
+#include <LPC214X.H>
+
+void delay(int time){
+	int i,j;
+	for(i=0; i<time; i++){
+		for(j=0; j<500; j++);
+	}
+}
+
+int main(){
+	int i;
+	//int arr[]={0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f};//cathod
+	int arr[]={0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90};//anode
+	
+	IODIR0 = 0xff;
+	
+	while(1){
+		for(i=0; i<10; i++){
+			IOSET0 |= arr[i];
+			delay(300);
+			IOCLR0 |= arr[i];
+		}
+	}
+}

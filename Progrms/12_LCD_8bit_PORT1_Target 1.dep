@@ -1,0 +1,4 @@
+Dependencies for Project '12_LCD_8bit_PORT1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\12_LCD_8bit_PORT1.c)(0x665C3050)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\12_lcd_8bit_port1.o --omf_browse .\12_lcd_8bit_port1.crf --depend .\12_lcd_8bit_port1.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
