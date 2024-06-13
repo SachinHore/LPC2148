@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\29_rtc_internalclk.o"
+--strict --scatter ".\29_RTC_InternalClk.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\29_RTC_InternalClk.map" -o .\29_RTC_InternalClk.axf

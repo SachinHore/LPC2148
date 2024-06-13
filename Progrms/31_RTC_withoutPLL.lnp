@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\31_rtc_withoutpll.o"
+--strict --scatter ".\31_RTC_withoutPLL.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\31_RTC_withoutPLL.map" -o .\31_RTC_withoutPLL.axf

@@ -45,7 +45,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\</OutputDirectory>
-          <OutputName>28_T0INT</OutputName>
+          <OutputName>30_RTC_ExtClk</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -411,9 +411,9 @@
               <FilePath>.\Startup.s</FilePath>
             </File>
             <File>
-              <FileName>28_T0INT.c</FileName>
+              <FileName>30_RTC_ExtClk.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\28_T0INT.c</FilePath>
+              <FilePath>.\30_RTC_ExtClk.c</FilePath>
             </File>
           </Files>
         </Group>

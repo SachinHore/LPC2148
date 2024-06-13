@@ -1,0 +1,4 @@
+Dependencies for Project '29_RTC_InternalClk', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\29_RTC_InternalClk.c)(0x6669BDE4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\29_rtc_internalclk.o --omf_browse .\29_rtc_internalclk.crf --depend .\29_rtc_internalclk.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)

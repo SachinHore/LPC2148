@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\30_rtc_extclk.o"
+--strict --scatter ".\30_RTC_ExtClk.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\30_RTC_ExtClk.map" -o .\30_RTC_ExtClk.axf
