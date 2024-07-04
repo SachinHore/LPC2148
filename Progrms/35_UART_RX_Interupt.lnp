@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\35_uart_rx_interupt.o"
+--strict --scatter ".\35_UART_RX_Interupt.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\35_UART_RX_Interupt.map" -o .\35_UART_RX_Interupt.axf

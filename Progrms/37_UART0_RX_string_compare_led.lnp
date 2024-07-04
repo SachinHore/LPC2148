@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\37_1_uart0_rx_string_compare_led.o"
+--strict --scatter ".\37_UART0_RX_string_compare_led.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\37_UART0_RX_string_compare_led.map" -o .\37_UART0_RX_string_compare_led.axf

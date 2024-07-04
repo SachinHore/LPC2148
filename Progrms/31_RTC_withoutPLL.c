@@ -60,6 +60,8 @@ void Time(){
 	lcd_cmd(0xc0); //2nd row 1st pos
 	lcd_data(48+(HOUR/10));
 	lcd_data(48+(HOUR%10));
+
+	
 	lcd_data(':');
 	lcd_data(48+(MIN/10));
 	lcd_data(48+(MIN%10));

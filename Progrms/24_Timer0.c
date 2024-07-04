@@ -19,7 +19,7 @@ void initPLL(){
 void delay(unsigned int ms){
 	
 	T0CTCR = 0x00; //Config T0 as timer
-	T0PR=59999; //1ms //iKHz
+	T0PR=59999; //1ms //1KHz
 	T0TCR = 0x01; //timer0 start
 	while(T0TC < ms);
 	T0TC =0;

@@ -1,0 +1,6 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\34_uart_rx.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\34_UART_RX.map" -o .\34_UART_RX.axf
